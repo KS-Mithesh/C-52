@@ -1,0 +1,73 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+h1.border{
+    border: 3px dashed;
+    padding-left: 5px;
+}
+
+.menu{
+    border: 2px groove;
+    margin: 3px;
+}
+
+.grid img{
+    width: 300px;
+    height: 300px;
+}
+
+.item{
+    position: relative;
+    margin: 20px;
+}
+
+.item:hover{
+    background-color: aquamarine;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: hotpink;
+}
+
+a:visited{
+    color: black;
+}
+
+a:link{
+    color: hotpink;
+}
